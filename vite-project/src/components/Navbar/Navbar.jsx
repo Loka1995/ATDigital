@@ -36,10 +36,12 @@ export default function Navbar() {
         </MenuItem>
       </ul>
 
-      <NavbarModal
-        modalIsOpen={isToggle}
-        closeModal={() => setIsToggle(false)}
-      />
+      {isToggle && (
+        <NavbarModal
+          modalIsOpen={isToggle}
+          closeModal={() => setIsToggle(false)}
+        />
+      )}
     </nav>
   );
 }
