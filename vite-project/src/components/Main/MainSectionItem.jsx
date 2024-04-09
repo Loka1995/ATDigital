@@ -39,7 +39,7 @@ export default function MainSectionItem({
         <h2 className="text-3xl font-bold text-violet-700 text-center mb-8">
           {title}
         </h2>
-        <p className="text-lg text-center mb-8">{description}</p>
+        <p className="text-lg text-center mb-8 sm:text-left">{description}</p>
         <Button>Learn more</Button>
       </div>
     </section>
