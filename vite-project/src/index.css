@@ -31,7 +31,7 @@ body {
 	line-height: 1;
 	display: flex; 
 	flex-direction: column;
-	font-family: "Lato", sans-serif;
+	font-family: "inter","Lato", sans-serif;
 }
 ol, ul {
 	list-style: none;
