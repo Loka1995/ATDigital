@@ -48,3 +48,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+dialog {
+	animation-name: slideInLeft;
+	animation-duration: 0.5s;
+}
+
+dialog::backdrop {
+	background-color: rgba(0, 0, 0, 0.586);
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

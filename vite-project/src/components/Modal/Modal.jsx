@@ -11,7 +11,7 @@ export default function Modal({ children, modalIsOpen, closeModal }) {
     };
   }, [modalIsOpen]);
   return (
-    <dialog ref={modal} className="w-full h-full p-2 relative rounded-md">
+    <dialog ref={modal} className="w-full h-full p-2 fixed ml-0">
       {children}
       <button
         onClick={closeModal}
