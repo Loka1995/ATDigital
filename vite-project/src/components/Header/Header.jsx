@@ -2,6 +2,7 @@ import heroImageSm from "../../assets/Hero-img-sm.jpg";
 import heroImageMd from "../../assets/Hero-img-md.jpg";
 import heroImageLg from "../../assets/Hero-img-lg.jpg";
 import heroImageXlg from "../../assets/Hero-img-xlg.jpg";
+import Button from "../UI/Button";
 
 export default function Header() {
   return (
@@ -30,12 +31,7 @@ export default function Header() {
         <p className="font-bold text-4xl mb-8 lg:mb-4 xl:mb-8">
           We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
         </p>
-        <button
-          className="uppercase bg-orange-400 rounded text-sm font-bold px-4 py-2
-          hover:scale-90 transition-all"
-        >
-          Get Free Consultation
-        </button>
+        <Button>Get Free Consultation</Button>
       </section>
     </header>
   );

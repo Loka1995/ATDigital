@@ -1,3 +1,5 @@
+import Button from "../UI/Button";
+
 /* eslint-disable react/prop-types */
 let imageClasses;
 let descriptionClasses;
@@ -38,12 +40,7 @@ export default function MainSectionItem({
           {title}
         </h2>
         <p className="text-lg text-center mb-8">{description}</p>
-        <button
-          className="text-sm bg-orange-400 text-white rounded uppercase py-2 px-4
-          hover:scale-90 transition-all"
-        >
-          Learn More
-        </button>
+        <Button>Learn more</Button>
       </div>
     </section>
   );
