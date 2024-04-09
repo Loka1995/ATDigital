@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import Modal from "../Modal/Modal";
+import Modal from "../UI/Modal";
 import NavbarModalItem from "./NavbarModalItem";
 
 export default function NavbarModal({ modalIsOpen, closeModal }) {
