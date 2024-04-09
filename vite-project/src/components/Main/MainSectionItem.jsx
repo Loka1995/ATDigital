@@ -30,10 +30,10 @@ export default function MainSectionItem({
            ${img768} 768w,
            ${img1200} 1200w,
            ${img1440} 1440w`}
-        sizes="(max-width: 767px) 375px,
-               (max-width: 1199px) 768px,
-               (max-width: 1439px) 1200px,
-               (max-width: 1579px) 1440px"
+        sizes="(max-width: 375px) 375px,
+               (max-width: 768px) 768px,
+               (max-width: 1200px) 1200px,
+               1440px"
       />
       <div className={descriptionClasses}>
         <h2 className="text-3xl font-bold text-violet-700 text-center mb-8">
