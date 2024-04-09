@@ -1,7 +1,7 @@
-import heroImageSm from "../../assets/Hero-img-sm.png";
-import heroImageMd from "../../assets/Hero-img-md.png";
-import heroImageLg from "../../assets/Hero-img-lg.png";
-import heroImageXlg from "../../assets/Hero-img-xlg.png";
+import heroImageSm from "../../assets/Hero-img-sm.jpg";
+import heroImageMd from "../../assets/Hero-img-md.jpg";
+import heroImageLg from "../../assets/Hero-img-lg.jpg";
+import heroImageXlg from "../../assets/Hero-img-xlg.jpg";
 
 export default function Header() {
   return (
@@ -16,10 +16,10 @@ export default function Header() {
              ${heroImageLg} 1200w,
              ${heroImageXlg} 1440w
              `}
-          sizes="(max-width: 767px) 375px,
-                 (max-width: 1199px) 768px,
-                 (max-width: 1439px) 1200px,
-                 (max-width: 1579px) 1440px"
+          sizes="(max-width: 375px) 375px,
+                 (max-width: 768px) 768px,
+                 (max-width: 1200px) 1200px,
+                 1440px"
         />
       </section>
       <section
