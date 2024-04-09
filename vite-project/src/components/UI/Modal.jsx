@@ -15,9 +15,9 @@ export default function Modal({ children, modalIsOpen, closeModal }) {
       {children}
       <button
         onClick={closeModal}
-        className="absolute top-0 right-0 p-4 text-[2rem]"
+        className="absolute top-0 right-0 text-[3rem] h-[3rem] w-[3rem]"
       >
-        &#10006;
+        &times;
       </button>
     </dialog>
   );
