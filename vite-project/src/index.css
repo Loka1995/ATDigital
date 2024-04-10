@@ -51,11 +51,18 @@ table {
 dialog {
 	animation-name: slideInLeft;
 	animation-duration: 0.5s;
+	max-width: 100vw;
+	max-height: 100vh;
 }
 
 dialog::backdrop {
 	background-color: rgba(0, 0, 0, 0.586);
 }
+
+/* :modal {
+	max-width: 100vw;
+	max-height: 100vh;
+} */
 
 @keyframes slideInLeft {
   0% {
